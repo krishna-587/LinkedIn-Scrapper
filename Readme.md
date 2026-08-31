@@ -1,6 +1,6 @@
 # ProfileForge
 
-ProfileForge is the Java Spring Boot version of the original LinkedIn profile API. It accepts a public LinkedIn profile URL and returns a flattened JSON payload with the same contract as the Python API: basic profile details, skills, experience, education, and certifications.
+ProfileForge is the Java Spring Boot version of the original LinkedIn profile API. It accepts a public LinkedIn profile URL and returns a flattened JSON payload containing details such as name, headlines, location, about, experience, education, skills, certifications and profile picture url.
 
 ## Tech stack
 
@@ -111,7 +111,4 @@ mvn spring-boot:run
 
 - http://localhost:8080/api/profile
 - Swagger UI is not enabled by default in this minimal conversion, but the endpoint is available.
-
-
-
-
+- Swagger Url : http://localhost:8080/swagger-ui/index.html#/profile-controller/getProfile
