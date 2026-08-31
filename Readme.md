@@ -18,7 +18,7 @@ Request JSON:
 
 ```json
 {
-  "url": "https://www.linkedin.com/in/aditya-chavhan-2210adi/"
+  "url": "https://www.linkedin.com/in/monu-kumar-273850177/"
 }
 ```
 
@@ -26,22 +26,68 @@ Response JSON:
 
 ```json
 {
-  "first_name": "Aditya",
-  "last_name": "Chavhan",
-  "headline": "Junior Software Automation Engineer",
-  "location": "Mumbai Metropolitan Region",
-  "about": "Currently serving as a Junior...",
-  "profile_picture_url": "https://media.licdn.com/dms/image/...",
-  "skills": ["Python", "FastAPI", "Data Structures"],
+  "first_name": "Monu",
+  "last_name": "Kumar",
+  "headline": "Building Coding Blocks School of Technology | Learning Head | Senior Mentor | Java Practice Head| Coding Blocks | CBSOT ",
+  "location": "Delhi, India",
+  "about": "Senior Mentor and Java practice lead",
+  "profile_picture_url": "https://media.licdn.com/dms/image/v2/D4E03AQFC8lDPzBHfTg/profile-displayphoto-scale_400_400/B4EZ3Qh7NZJMAk-/0/1777320049355?e=1789603200&v=beta&t=Qik44UWGN_fmP9xLTJ4uUItI0w2pyJZO-FSo9gL7M8g",
+  "skills": [
+    "c",
+    "c++",
+    "Java",
+    "Data Structures",
+    "Python (Programming Language)",
+    "Database Management System (DBMS)",
+    "Object-Oriented Programming (OOP)",
+    "HTML",
+    "computer network",
+    "Git",
+    "Cascading Style Sheets (CSS)",
+    "JavaScript",
+    "Teaching"
+  ],
   "experience": [
     {
-      "company": "EPAM Systems",
-      "title": "Junior Software Automation Engineer",
-      "location": "Hyderabad, Telangana, India"
+      "company": "Coding Blocks School of Technology",
+      "title": "Building Coding Blocks School of Technology",
+      "location": "Delhi, India"
+    },
+    {
+      "company": "Coding Blocks",
+      "title": "Senior Mentor and Java practice head, Coding Blocks",
+      "location": "New Delhi"
+    },
+    {
+      "company": "Coding Blocks",
+      "title": "Senior Mentor and Java practice lead, Coding Blocks",
+      "location": null
+    },
+    {
+      "company": "Coding Blocks",
+      "title": "Instructor and Product Engineer",
+      "location": "New Delhi, Delhi, India"
+    },
+    {
+      "company": "Chegg India ",
+      "title": "Subject Matter Expert",
+      "location": "New Delhi "
     }
   ],
-  "education": [],
-  "certifications": []
+  "education": [
+    {
+      "school": "Jamia Millia Islamia",
+      "degree": "Bachelor of Technology - BTech",
+      "field_of_study": "Computer engineering "
+    }
+  ],
+  "certifications": [
+    {
+      "name": "CODATHON\n",
+      "authority": "Maulana Azad National Institute of Technology",
+      "license_number": null
+    }
+  ]
 }
 ```
 
@@ -65,11 +111,6 @@ mvn spring-boot:run
 
 - http://localhost:8080/api/profile
 - Swagger UI is not enabled by default in this minimal conversion, but the endpoint is available.
-
-## Notes
-
-This implementation keeps the same LinkedIn Voyager scraping approach as the original app: it calls the LinkedIn internal profile endpoint using the active browser cookies and flattens the returned graph into a clean DTO structure.
-```
 
 
 
